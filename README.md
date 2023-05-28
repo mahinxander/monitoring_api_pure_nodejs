@@ -1,50 +1,57 @@
-<head>
-    <meta name='keywords' content='php, laravel, cake, shop'>
-</head>
 
-## <span style='color:red;'>Laravel</span> Cake Shop Website Project - <span style='color:pink;'>The Sweet Piece</span>
+[![Facebook][facebook-shield]][facebook-url]
+[![Instagram][instagram-shield]][instagram-url]
 
-The <span style='color:red;'>Sweet</span> Piece - A <span style='color:red;'>Laravel</span> Cake Shop Website Project is an open source ecommerce/online shop platform management system using Laravel.
+<br />
+<p align="center">
+  <h3 align="center"><a href="">Raw Node.js Project - Monitoring API</a></h3>
 
-## Packages Used
- **Laravel Debugbar came in handy. Set APP_DEBUG=true if usage is helpful, otherwise set false.**
-## Installation Instructions
+<!-- TABLE OF CONTENTS -->
 
-- Clone the repo.
-- Run `composer install`
-- Run `php -r "file_exists('.env') || copy('.env.example', '.env');"`
-- Run `php artisan key:generate --ansi`
-- Create a database named `cakeshop` (or you can change the name in .env) in your localhost
-- Edit `.env` file
-- Run `php artisan migrate --seed`
+## Table of Contents
 
-## Contributing
+- [How to run](#how-to-run)
+  - [New Users](#new-users-who-never-cloned-this-repository-before)
+  - [Old Users](#old-users-who-previously-cloned-the-repository)
+- [Contact](#contact)
 
-Thank you for considering contributing to the Laravel- Cake Shop Project!
-**Issues**
-- More beautification is possible
-- Admin dashboard can be built properly
-- More options can be added.
+<!-- HOW TO RUN -->
 
-## Contribution Guideline
+## How to run
 
-- Fork the repo.
-- Clone the repo.
-- Run `git checkout dev`
-- Create a new local branch
-- Work on your local branch
-- Push to remote
-- When work is tested, done or ready, push to remote
-- Merge to dev
+Please follow the below instructions to run this project in your machine:
 
-## License
+### New Users who never cloned this repository before
 
-The Sweet Piece- A Laravel Cake Shop Website Project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+1. Clone this repository
+   ```sh
+   git clone https://github.com/mahinxander/monitoring_api_pure_nodejs.git
+   ```
+2. Go into cloned directory
+   
+3. Install dev dependencies
+   ```sh
+   npm install
+   ```
+   
+5. Run the app
+   ```sh
+   npm start OR npm run production
+   ```
+6. Your app should be available in http://localhost:3000
 
-## Demo Screenshots
+8. You can use Postman to check different api hits as I did :)
 
-<img src="/images-of-the-sweet-piece-site/thesweetpiece.PNG" alt="laravel cake shop" />
-<img src="/images-of-the-sweet-piece-site/thesweetpiece-productpage.PNG" alt="laravel cake shop" />
-<img src="/images-of-the-sweet-piece-site/thesweetpiece-cart.PNG" alt="laravel cake shop" />
-<img src="/images-of-the-sweet-piece-site/thesweetpiece-orderhistory.PNG" alt="laravel cake shop" />
+### Old users who previously cloned the repository
 
+Just pull the updated code
+
+```sh
+git pull
+```
+
+<!-- CONTACT -->
+
+## Contact
+
+Mahin Rahman - mahin.arrean@gmail.com(mailto:mahin.arrean@gmail.com)
