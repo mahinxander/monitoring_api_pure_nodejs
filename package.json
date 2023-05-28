@@ -1,0 +1,20 @@
+{
+  "name": "nodejsnew",
+  "version": "1.0.0",
+  "description": "New Raw Nodejs api project ",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=staging nodemon index",
+    "production": "cross-env NODE_ENV=production nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mahin",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
