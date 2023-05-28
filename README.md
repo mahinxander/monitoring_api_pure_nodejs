@@ -1,8 +1,3 @@
-
-[![Facebook][facebook-shield]][facebook-url]
-[![Instagram][instagram-shield]][instagram-url]
-
-<br />
 <p align="center">
   <h3 align="center"><a href="">Raw Node.js Project - Monitoring API</a></h3>
 
